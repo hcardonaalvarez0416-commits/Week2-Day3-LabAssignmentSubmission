@@ -1,0 +1,139 @@
+ /* Header */
+header {
+  width: 100%;
+  min-height: 400px;
+  padding-top: 3em;
+}
+
+#home header {
+  background: no-repeat lightgrey;
+  background-size: 1500px;
+}
+
+
+
+
+.main-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 700px;
+  margin: 2em auto 0 auto;
+  min-height: 100px;
+  height: 100px;
+  
+  
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.main-header .logo img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  
+}
+
+/* Navigation */
+.main-menu {
+  font-weight: 400;
+  
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.main-menu ul li {
+  list-style-type: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid rgba(202, 204, 202, 0.6);
+  line-height: 100px; /* Vertically centers the text within the 100px bar */
+  text-transform: uppercase;
+  font-size: 14px;
+  float: left;
+}
+
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #888;
+}
+
+.main-menu ul li a:hover {
+  color: #1637ca;
+}
+
+.main-menu ul li.active {
+  background: #0ae2ac;
+  border: none;
+}
+
+.main-menu ul li.active a {
+  color: #fff;
+}
+
+/* Main */
+.main-h2 {
+  text-align: left;
+  font: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #9ed034;
+}
+/* About */
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+caption {
+    background: #3408d3;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+thead {
+    background: #bde1ff;
+
+}
+tbody {
+    background: #EEFFE6;
+    text-align: center;
+}
+th,td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #85201B;
+}
+#contact main h1 {
+    text-align: left;
+    font-size: 2em;
+    color: #9ed034;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;   
+}
+#contact main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+#contact fieldset {
+    border: 2px solid #cbd485; /* Light greenish-yellow border */
+    border-radius: 4px;
+    padding: 25px 30px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact legend {
+    color: #10b318; /* Deep blue text */
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
